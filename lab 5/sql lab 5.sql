@@ -43,7 +43,7 @@ select customer_id, email, create_date
 from customer
 where active = 0;
 
-
+ ##aqui me da error no se por que
 delete from customer 
 where active = 0
 order by active;
